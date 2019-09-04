@@ -1,0 +1,39 @@
+#main{
+    width: 30%;
+    margin: auto;
+    display: none
+}
+#main div{
+    width: 20%;
+    height: 70px;
+    border:1px solid #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    float: left
+}
+#main div p{
+    font-size: 25px;
+} 
+.startGame{
+    width: 30%;
+    margin: auto
+}
+.startGame button{
+    background-color: rgb(18, 54, 63);
+    border: 1px solid  rgb(18, 54, 63);
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 35px
+}
+.pointerEventBg{
+    pointer-events: none;
+    background-color: rgb(18, 54, 63);
+    color: #fff
+}
+#winMsg{
+    color: rgb(18, 54, 63);
+    margin: auto;
+    width: 30%
+}
